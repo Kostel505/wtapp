@@ -85,7 +85,6 @@ setInterval(() => {
 
 
 getLocation();
-searchByCity(defaultCity);
 
 function getLocation() { 
     if(navigator.geolocation) {
