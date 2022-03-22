@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+      //"forceConsistentCasingInFileNames": true,
+      "target":"ES6",
+      "module": "es2020",
+      "lib": ["es2020","DOM"],
+      "outDir": "",
+      "rootDir": "",
+      "allowSyntheticDefaultImports": true,
+      "skipLibCheck": true,
+      "strict": true,
+      "baseUrl": ".",
+      "esModuleInterop": true,
+      "moduleResolution": "node"
+    }
+}

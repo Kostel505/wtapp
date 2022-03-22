@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="stylesheet" href="./style.css">
+    
+    <title>WEATTIE | Aktuální data o počasí</title>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="actual-data">
+
+            <div class="todayweather">
+                <div class="time" id="time"></div>
+                <div class="date" id="date"></div>
+
+                <div class="current" id="current-weather">
+                    <img src="http://openweathermap.org/img/wn/02d@4x.png" alt="weather icon" class="wicon">
+                    <div class="temp">C</div>
+                    <div class="current-item">
+                        <div></div>
+                        <div></div> 
+                    </div>
+                    <div class="current-item">
+                        <div></div>
+                        <div></div> 
+                    </div>
+                    <div class="current-item">
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timezone-container">
+                <div class="timezone" id="time-zone"></div>
+                <div class="cityname" id="cityname"></div>
+                <div class="coords" id="coords"></div>
+                <div class="search">
+                    <input placeholder="Zadejte město" class="search-bar" id="search-bar">
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                          </svg>
+                    </button>
+                    <div class="warn"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="future-container" id="daily-forecast">
+        <!-- <div class="daily-forecast" >
+            <div class="day">Pondělí</div>
+            <img src="http://openweathermap.org/img/wn/02d.png" alt="weather icon" class="w:icon">
+            <div class="temp">Den &#176;C</div>
+            <div class="temp">Noc &#176;C</div>
+        </div>
+        <div class="daily-forecast" id="daily-forecast">
+            <div class="day">Úterý</div>
+            <img src="http://openweathermap.org/img/wn/02d.png" alt="weather icon" class="w:icon">
+            <div class="temp">Den &#176;C</div>
+            <div class="temp">Noc &#176;C</div>
+        </div>
+        <div class="daily-forecast" id="daily-forecast">
+            <div class="day">Středa</div>
+            <img src="http://openweathermap.org/img/wn/02d.png" alt="weather icon" class="w:icon">
+            <div class="temp">Den &#176;C</div>
+            <div class="temp">Noc &#176;C</div>
+        </div>
+        <div class="daily-forecast" id="daily-forecast">
+            <div class="day">Čtvrtek</div>
+            <img src="http://openweathermap.org/img/wn/02d.png" alt="weather icon" class="w:icon">
+            <div class="temp">Den &#176;C</div>
+            <div class="temp">Noc &#176;C</div>
+        </div>
+        <div class="daily-forecast" id="daily-forecast">
+            <div class="day">Pátek</div>
+            <img src="http://openweathermap.org/img/wn/02d.png" alt="weather icon" class="w:icon">
+            <div class="temp">Den &#176;C</div>
+            <div class="temp">Noc &#176;C</div>
+        </div>
+        <div class="daily-forecast" id="daily-forecast">
+            <div class="day">Sobota</div>
+            <img src="http://openweathermap.org/img/wn/02d.png" alt="weather icon" class="w:icon">
+            <div class="temp">Den &#176;C</div>
+            <div class="temp">Noc &#176;C</div>
+        </div> -->
+    </div>
+</body>  
+<script type="module" src="./app.js" defer></script>
+</html>
